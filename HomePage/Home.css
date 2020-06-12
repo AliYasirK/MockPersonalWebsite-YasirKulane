@@ -1,0 +1,164 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #333333;
+  color: white;
+}
+
+.navbar .brand-title {
+  font-size: 1rem;
+  margin: 1em;
+  margin-left: -0em;
+}
+
+.navbar .navbar-links {
+  width: 100%;
+  display: none;
+}
+
+.navbar .navbar-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.navbar .navbar-links li {
+  list-style: none;
+  width: 100%;
+}
+
+.navbar .navbar-links li:hover {
+  background-color: #555;
+}
+
+.navbar .navbar-links a {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  /* padding: 1rem; */
+  font-size: 0.75rem;
+}
+
+.navbar .toggle-button {
+  position: absolute;
+  top: 1.20rem;
+  right: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 25px;
+  height: 21px;
+}
+
+.navbar .toggle-button .bar {
+  display: inline-block;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+}
+
+.navbar .toggle-button .navbar-links .active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  max-width: 250px;
+  max-height: 830x;
+  margin: 2rem auto;
+  border: 5px solid black;
+  padding: 0rem;
+  background-color: grey;
+  text-align: center;
+}
+
+.container img {
+  width: 80%;
+}
+
+.container .container_header {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Metal Mania', cursive;
+}
+
+.container p {
+  font-family: 'Metal Mania', cursive;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.hp {
+  border: solid;
+  width: 100%;
+  height: 100%;
+  background-image: url(../Fonts-and-images/background-hp.jpg);
+  background-size: 500px 400px;
+  background-repeat: 4;
+}
+
+@media (min-width: 550px) {
+  .container {
+    max-width: 450px;
+    max-height: 830x;
+    margin: 2rem auto;
+    border: 5px solid black;
+    padding: 0rem;
+    background-color: grey;
+    text-align: center;
+  }
+  .container img {
+    width: 80%;
+  }
+  .container .container_header {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Metal Mania', cursive;
+  }
+  .container p {
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+  .hp {
+    border: solid;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Fonts-and-images/background-hp.jpg);
+    background-size: 500px 400px;
+    background-repeat: 4;
+  }
+}
+/*# sourceMappingURL=Home.css.map */
