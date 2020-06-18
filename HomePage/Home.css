@@ -4,91 +4,69 @@ body {
 }
 
 .navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #333333;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
   color: white;
 }
 
-.navbar .brand-title {
+.brand-title {
   font-size: 1rem;
   margin: 1em;
-  margin-left: -0em;
+  margin-right: 3em;
 }
-
-.navbar .navbar-links {
+.navbar-links {
   width: 100%;
+  /* display: flex; */
   display: none;
 }
 
-.navbar .navbar-links ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.navbar-links ul {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: center;
   width: 100%;
 }
 
-.navbar .navbar-links li {
+.navbar-links li {
   list-style: none;
   width: 100%;
+  
 }
 
-.navbar .navbar-links li:hover {
+.navbar-links li:hover {
   background-color: #555;
 }
 
-.navbar .navbar-links a {
+.navbar-links a {
   width: 100%;
   text-decoration: none;
   color: white;
   /* padding: 1rem; */
-  font-size: 0.75rem;
+  font-size: .75rem;
 }
 
-.navbar .toggle-button {
+.toggle-button {
   position: absolute;
-  top: 1.20rem;
+  top: 1rem;
   right: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-evenly;
   width: 25px;
   height: 21px;
 }
 
-.navbar .toggle-button .bar {
+.toggle-button .bar {
   display: inline-block;
   height: 3px;
-  width: 100%;
+  width: 100%;  
   background-color: white;
 }
 
-.navbar .toggle-button .navbar-links .active {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.navbar-links.active {
   display: flex;
 }
 
