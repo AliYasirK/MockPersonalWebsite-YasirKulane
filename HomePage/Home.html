@@ -1,44 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HPBR-HomePage</title>
-    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Home.css"/>
-</head>
-<div class="hp">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Home.css" />
+  </head>
+  <div class="hp">
     <body>
-        <nav class="navbar">
-            <!-- title -->
-            <p class="brand-title">Brand Name</p>
-            <!-- hamburger menu -->
-            <a href="#" id="toggle-button" class="toggle-button">
-                <!-- spans are used to represent each bar -->
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <!-- nav-links -->
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </nav> 
-        <div class="container">
-            <header class="container_header">
-                <h1> Harry Potter Book Review</h1>
-            </header>
-
-            <div class="container_bio">
-                <p>Harry potter has been my favorite book and movie series since I was a child. I have awed over this amazing series created by J. K. Rowling most of my life, and I honestly don't know any other book series I would enjoy if Harry Potter didn't exist</p><br>
-                <img id="img1" src="https://media.buzz.ie/uploads/2017/06/27102408/HP_hc_old_1.jpg">
-            </div>
+      <nav class="navbar">
+        <!-- title -->
+        <p class="brand-title">Brand Name</p>
+        <!-- hamburger menu -->
+        <a href="#" id="toggle-button" class="toggle-button">
+          <!-- spans are used to represent each bar -->
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <!-- nav-links -->
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </div>
-        
+      </nav>
+      <div class="container">
+        <header class="container_header">
+          <h1>Harry Potter Book Review</h1>
+        </header>
+
+        <div class="container_bio">
+          <picture>
+            <p>
+              Harry potter has been my favorite book and movie series since I
+              was a child. I have awed over this amazing series created by J. K.
+              Rowling most of my life, and I honestly don't know any other book
+              series I would enjoy if Harry Potter didn't exist
+            </p>
+            <br />
+            <source
+              srcset="
+                https://media.buzz.ie/uploads/2017/06/27102408/HP_hc_old_1.jpg
+              "
+              media="(min-width: 550px)"
+            />
+            <img
+              src="https://media.buzz.ie/uploads/2017/06/27102408/HP_hc_old_1.jpg"
+            />
+          </picture>
+        </div>
+      </div>
     </body>
-</div>
+  </div>
 </html>
